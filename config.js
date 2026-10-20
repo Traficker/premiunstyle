@@ -13,15 +13,6 @@ const CONFIG = {
   city: "Barranquilla, Atlántico",
   postalCode: "080020",
   country: "Colombia",
-  whatsappBase: "https://wa.me/573104462657",
-  prices: {
-    unitPromo: 37900,
-    minUnits: 3,
-    combos: [
-      { qty: 3, total: 113700, label: "Combo 3 Camisetas (Mínimo)", popular: true, savings: "Ahorras $36.000" },
-      { qty: 4, total: 149900, label: "Combo 4 Camisetas (Favorito)", popular: false, savings: "Ahorras $50.000" },
-      { qty: 5, total: 185000, label: "Combo 5 Camisetas (Look Total)", popular: false, savings: "Ahorras $65.000" }
-    ]
-  }
+  whatsappBase: "https://wa.me/573104462657"
 };
 if (typeof module !== 'undefined') module.exports = CONFIG;
